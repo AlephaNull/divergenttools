@@ -39,7 +39,7 @@ export default function ToolsPage() {
         </header>
 
         <Tabs defaultValue="daily" className="w-full">
-          <TabsList className="grid grid-cols-2 md:grid-cols-6 mb-8">
+          <TabsList className="grid grid-cols-2 md:grid-cols-6 mb-[5rem] justify-center">
             <TabsTrigger value="daily" className="flex items-center gap-2">
               <CheckSquare className="h-4 w-4" />
               <span className="hidden md:inline">Day to Day</span>
