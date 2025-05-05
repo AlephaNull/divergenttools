@@ -31,9 +31,9 @@ export default function ToolsPage() {
             <ThemeToggle />
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-4">Tools for Neurodivergent People</h1>
+            <h1 className="text-4xl font-bold mb-4">DivergentTools</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              A curated collection of apps, services, and resources to help neurodivergent individuals thrive.
+              <strong>A curated collection of apps, services, and resources to help neurodivergent individuals <u><i>thrive</i></u>.</strong>
             </p>
           </div>
         </header>
