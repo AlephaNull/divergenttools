@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import { Analytics } from "@vercel/analytics/react"
 import { Funnel_Display } from "next/font/google";
 import "./globals.css";
 
@@ -26,6 +26,7 @@ export default function RootLayout({
         className={funnelDisplay.className}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
